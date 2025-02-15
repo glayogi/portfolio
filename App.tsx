@@ -636,7 +636,6 @@ function App() {
                 whileHover={{ scale: 1.05 }}
               >
                 <Mail className="w-4 h-4" />
-                Google Form
               </motion.a>
             </div>
           </div>
