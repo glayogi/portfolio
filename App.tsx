@@ -121,7 +121,7 @@ function App() {
       setFormData({ name: '', email: '', message: '' });
       setTimeout(() => setFormStatus('idle'), 3000);
       
-      window.open('https://forms.gle/2WgQJJJ11LjYF5D28', '_blank');
+      window.open('https://media1.tenor.com/m/Q5-0X8P9aXIAAAAC/thank-you-for-your-time-jamie-kellett.gif', '_blank');
     } catch (error) {
       console.error('Error submitting form:', error);
       setFormStatus('error');
@@ -292,7 +292,7 @@ function App() {
       </motion.header>
 
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072')] bg-cover bg-center opacity-5" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072')] bg-cover bg-center opacity-100" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#020617]/50 to-[#020617]" />
         <div className="container mx-auto px-4 z-10">
           <motion.div
@@ -627,15 +627,16 @@ function App() {
               </motion.button>
             </motion.form>
             <div className="text-center mt-8">
-              <p className="text-gray-300">Or fill out the detailed form here:</p>
+              <p className="text-gray-300"></p>
               <motion.a
-                href="https://forms.gle/agvNzPyDCZpkyE1u6"
+                href="https://media1.tenor.com/m/Q5-0X8P9aXIAAAAC/thank-you-for-your-time-jamie-kellett.gif"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 mt-2"
                 whileHover={{ scale: 1.05 }}
               >
                 <Mail className="w-4 h-4" />
+                
               </motion.a>
             </div>
           </div>
