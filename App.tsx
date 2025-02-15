@@ -405,7 +405,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "UPI transaction data analysis ",
+                title: "UPI Transaction Data Analysis ",
                 description: "Designed Power BI dashboards, analyzed UPI data, identified trends, optimized processes",
                 image: "https://www.mindgate.solutions/wp-content/uploads/2023/10/empowering-transactions-the-upi-revolution-and-its-game-changing-impact-on-credit-thumb.png.webp",
                 tech: ["POWER BI"],
@@ -416,7 +416,14 @@ function App() {
                 description: "Analyzed student depression data, created dashboards, and provided actionable insights",
                 image: "https://i.ndtvimg.com/i/2017-02/depression-istock_650x400_51487909764.jpg?downsize=773:435",
                 tech: ["SQL","TABLEAU"],
-                github: "https://github.com/yogendra-gla?tab=repositories"
+                github: "https://github.com/glayogi/student_depression_analysis"
+              },
+              {
+                title: "Weather Data Analysis ",
+                description: "project processes weather data using basic Pandas functions",
+                image: "https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/2023/03/52196025795_06f077377a_c.jpg",
+                tech: ["PANDAS"],
+                github: "https://github.com/glayogi/weather_data_analysis/blob/main/WEATHER_DATA_ANALYSIS.ipynb"
               }
             ].map((project, index) => (
               <motion.div
