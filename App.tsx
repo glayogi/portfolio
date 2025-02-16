@@ -419,11 +419,11 @@ function App() {
                 github: "https://github.com/glayogi/student_depression_analysis"
               },
               {
-                title: "Weather Data Analysis ",
-                description: "project processes weather data using basic Pandas functions",
-                image: "https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/2023/03/52196025795_06f077377a_c.jpg",
+                title: "Real World Data Analysis ",
+                description: "Project processes data using basic Pandas functions",
+                image: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*hOk7m1CcDxpGZ1wVbO8dkA.jpeg",
                 tech: ["PANDAS"],
-                github: "https://github.com/glayogi/weather_data_analysis/blob/main/WEATHER_DATA_ANALYSIS.ipynb"
+                github: "https://github.com/glayogi/Real-World-Data-Analysis"
               }
             ].map((project, index) => (
               <motion.div
@@ -486,6 +486,18 @@ function App() {
             <p className="text-blue-400 mb-4">GLA University | 2021 - 2025</p>
             <p className="text-gray-300">
               71.8 %
+            </p>
+          </motion.div>
+                    <motion.div
+            className="bg-[#0f172a]/30 p-8 rounded-xl border border-[#1e293b] hover:border-blue-500 transition-all duration-300 max-w-3xl mx-auto"
+            whileHover={{ scale: 1.02 }}
+          >
+            <h3 className="text-2xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+              Diploma(Mechanical Production)
+            </h3>
+            <p className="text-blue-400 mb-4">Government Polytechnic Lucknow</p>
+            <p className="text-gray-300">
+              72 %
             </p>
           </motion.div>
           
